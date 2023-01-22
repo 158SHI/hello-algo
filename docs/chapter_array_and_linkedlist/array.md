@@ -70,8 +70,11 @@ comments: true
 === "C"
 
     ```c title="array.c"
-    
+    /* 初始化数组 */
+    int* arr = (int*)malloc(sizeof(int) * 5);
+    int* arr = (int*)realloc(5, sizeof(int));//将数组元素初始化为0
     ```
+
 
 === "C#"
 
